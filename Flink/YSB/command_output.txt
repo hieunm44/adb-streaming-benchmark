@@ -1,0 +1,15 @@
+00:22:37.891 [main] INFO  Y.YSB - Executing YSB with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 0
+  * source: 7
+  * filter: 7
+  * joiner: 7
+  * winAggregate: 7
+  * sink: 7
+  * topology: source -> filter -> joiner -> winAggregate -> sink
+00:22:37.894 [main] INFO  Y.YSB - Chaining is enabled
+00:22:37.894 [main] INFO  Y.YSB - Submitting topology
+00:23:40.034 [Sink: Unnamed (1/1)] INFO  Y.DroppedSink - [DoppedSink] dropped tuples: 1545
+00:23:40.131 [main] INFO  Y.YSB - Exiting
+00:23:40.132 [main] INFO  Y.YSB - Measured throughput: 9190835 tuples/second
+00:23:40.132 [main] INFO  Y.YSB - Dumping metrics

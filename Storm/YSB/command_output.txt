@@ -1,0 +1,35 @@
+00:41:23.723 [main] INFO  Y.YSB - Executing YSB with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 0
+  * source: 7
+  * filter: 7
+  * joiner: 7
+  * winAggregate: 7
+  * sink: 7
+  * topology: source -> filter -> joiner -> winAggregate -> sink
+00:41:23.726 [main] INFO  Y.YSB - Submitting topology
+00:41:24.374 [main] INFO  Y.YSB - Waiting for topology termination...
+00:42:27.410 [Thread-50-spout-executor[24, 24]] INFO  Y.YSBSpout - Killing the topology
+00:42:27.410 [Thread-60-spout-executor[23, 23]] INFO  Y.YSBSpout - Killing the topology
+00:42:27.410 [Thread-63-spout-executor[29, 29]] INFO  Y.YSBSpout - Killing the topology
+00:42:27.410 [Thread-48-spout-executor[26, 26]] INFO  Y.YSBSpout - Killing the topology
+00:42:27.415 [Thread-49-spout-executor[28, 28]] INFO  Y.YSBSpout - Killing the topology
+00:42:27.417 [Thread-62-spout-executor[25, 25]] INFO  Y.YSBSpout - Killing the topology
+00:42:27.418 [Thread-61-spout-executor[27, 27]] INFO  Y.YSBSpout - Killing the topology
+00:42:57.662 [SLOT_1024] INFO  Y.WinAggregateBolt - [WinAggregate] dropped tuples: 15295
+00:42:57.662 [SLOT_1024] INFO  Y.WinAggregateBolt - [WinAggregate] dropped tuples: 23913
+00:42:57.662 [SLOT_1024] INFO  Y.WinAggregateBolt - [WinAggregate] dropped tuples: 7185
+00:42:57.662 [SLOT_1024] INFO  Y.WinAggregateBolt - [WinAggregate] dropped tuples: 16825
+00:42:57.665 [SLOT_1024] INFO  Y.YSBSpout - Measured throughput: 526769 tuples/second
+00:42:57.665 [SLOT_1024] INFO  Y.YSBSpout - Measured throughput: 530273 tuples/second
+00:42:57.665 [SLOT_1024] INFO  Y.YSBSpout - Measured throughput: 538805 tuples/second
+00:42:57.666 [SLOT_1024] INFO  Y.YSBSpout - Measured throughput: 589568 tuples/second
+00:42:57.666 [SLOT_1024] INFO  Y.YSBSpout - Measured throughput: 593605 tuples/second
+00:42:57.666 [SLOT_1024] INFO  Y.YSBSpout - Measured throughput: 578805 tuples/second
+00:42:57.667 [SLOT_1024] INFO  Y.YSBSpout - Measured throughput: 588882 tuples/second
+00:42:57.667 [SLOT_1024] INFO  Y.WinAggregateBolt - [WinAggregate] dropped tuples: 22632
+00:42:57.667 [SLOT_1024] INFO  Y.WinAggregateBolt - [WinAggregate] dropped tuples: 11861
+00:42:57.667 [SLOT_1024] INFO  Y.WinAggregateBolt - [WinAggregate] dropped tuples: 21216
+00:42:57.931 [main] INFO  Y.YSB - ...Shutting down cluster
+00:43:00.708 [main] INFO  Y.YSB - Exiting
+00:43:00.708 [main] INFO  Y.YSB - Dumping metrics

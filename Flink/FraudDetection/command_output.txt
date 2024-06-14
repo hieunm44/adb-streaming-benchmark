@@ -1,0 +1,12 @@
+15:47:38.011 [main] INFO  F.FraudDetection - Executing FraudDetection with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 100
+  * source: 7
+  * predictor: 7
+  * sink: 7
+  * topology: source -> predictor -> sink
+15:47:38.013 [main] INFO  F.FraudDetection - Chaining is enabled
+15:47:38.013 [main] INFO  F.FraudDetection - Submitting topology
+15:48:40.428 [main] INFO  F.FraudDetection - Exiting
+15:48:40.428 [main] INFO  F.FraudDetection - Measured throughput: 2702738.0 tuples/second
+15:48:40.428 [main] INFO  F.FraudDetection - Dumping metrics

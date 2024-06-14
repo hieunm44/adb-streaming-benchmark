@@ -1,0 +1,15 @@
+15:49:19.661 [main] INFO  L.LinearRoad - Executing LinearRoad with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 100
+  * topology: complex with 9 operators
+15:49:19.710 [main] INFO  L.Topology - NODE: source (1)
+15:49:19.714 [main] INFO  L.Topology - NODE: dispatcher (1)
+15:49:19.716 [main] INFO  L.Topology - NODE: average_speed (1)
+15:49:19.719 [main] INFO  L.Topology - NODE: last_average_speed (1)
+15:49:19.720 [main] INFO  L.Topology - NODE: toll_notification_las (1)
+15:49:19.722 [main] INFO  L.Topology - NODE: count_vehicles (1)
+15:49:19.723 [main] INFO  L.Topology - NODE: toll_notification_cv (1)
+15:49:19.725 [main] INFO  L.Topology - NODE: toll_notification_pos (1)
+15:49:19.730 [main] INFO  L.Topology - NODE: sink (1)
+15:49:19.730 [main] INFO  L.Topology - Chaining is enabled
+15:49:19.730 [main] INFO  L.Topology - Submitting topology

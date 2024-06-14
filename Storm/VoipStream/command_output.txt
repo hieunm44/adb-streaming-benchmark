@@ -1,0 +1,26 @@
+00:04:15.005 [main] INFO  V.VoipStream - Executing VoipStream (default) with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 100
+  * topology: complex with 15 operators
+00:04:15.010 [main] INFO  V.TopologyBuilderHints - SPOUT: source (1)
+00:04:15.015 [main] INFO  V.TopologyBuilderHints - BOLT: parser (1)
+00:04:15.019 [main] INFO  V.TopologyBuilderHints - BOLT: dispatcher (1)
+00:04:15.019 [main] INFO  V.TopologyBuilderHints - BOLT: ct24 (3)
+00:04:15.020 [main] INFO  V.VoipStream - BOLT: global_acd (1)
+00:04:15.020 [main] INFO  V.TopologyBuilderHints - BOLT: ecr24 (3)
+00:04:15.020 [main] INFO  V.TopologyBuilderHints - BOLT: acd (3)
+00:04:15.021 [main] INFO  V.TopologyBuilderHints - BOLT: ecr (1)
+00:04:15.021 [main] INFO  V.TopologyBuilderHints - BOLT: encr (1)
+00:04:15.021 [main] INFO  V.TopologyBuilderHints - BOLT: url (1)
+00:04:15.022 [main] INFO  V.TopologyBuilderHints - BOLT: pre_rcr (3)
+00:04:15.022 [main] INFO  V.TopologyBuilderHints - BOLT: rcr (3)
+00:04:15.022 [main] INFO  V.TopologyBuilderHints - BOLT: fofir (1)
+00:04:15.023 [main] INFO  V.TopologyBuilderHints - BOLT: score (1)
+00:04:15.023 [main] INFO  V.TopologyBuilderHints - BOLT: sink (1)
+00:04:15.090 [main] INFO  V.Topology - Submitting topology
+00:04:15.825 [main] INFO  V.Topology - Waiting for topology termination...
+00:05:27.809 [Thread-58-source-executor[25, 25]] INFO  V.LineReaderSpout - Killing the topology
+00:05:57.887 [main] INFO  V.Topology - ...Shutting down cluster
+00:05:58.837 [SLOT_1027] INFO  V.LineReaderSpout - Measured throughput: 65276 tuples/second
+00:06:01.962 [main] INFO  V.Topology - Exiting
+00:06:01.962 [main] INFO  V.Topology - Dumping metrics

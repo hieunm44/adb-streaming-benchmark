@@ -1,0 +1,27 @@
+00:17:17.618 [main] INFO  W.WordCount - Executing WordCount with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 100
+  * source: 7
+  * splitter: 7
+  * counter: 7
+  * sink: 7
+  * topology: source -> splitter -> counter -> sink
+00:17:17.621 [main] INFO  W.WordCount - Submitting topology
+00:17:18.366 [main] INFO  W.WordCount - Waiting for topology termination...
+00:18:21.512 [Thread-61-spout-executor[29, 29]] INFO  W.FileParserSpout - Killing the topology
+00:18:21.515 [Thread-60-spout-executor[25, 25]] INFO  W.FileParserSpout - Killing the topology
+00:18:21.515 [Thread-59-spout-executor[23, 23]] INFO  W.FileParserSpout - Killing the topology
+00:18:21.516 [Thread-47-spout-executor[26, 26]] INFO  W.FileParserSpout - Killing the topology
+00:18:21.521 [Thread-46-spout-executor[28, 28]] INFO  W.FileParserSpout - Killing the topology
+00:18:21.521 [Thread-41-spout-executor[24, 24]] INFO  W.FileParserSpout - Killing the topology
+00:18:21.522 [Thread-62-spout-executor[27, 27]] INFO  W.FileParserSpout - Killing the topology
+00:18:52.099 [main] INFO  W.WordCount - ...Shutting down cluster
+00:18:52.472 [SLOT_1027] INFO  W.FileParserSpout - Measured throughput: 10618 lines/second, 2.23729 MB/s
+00:18:52.473 [SLOT_1027] INFO  W.FileParserSpout - Measured throughput: 10568 lines/second, 2.23729 MB/s
+00:18:52.474 [SLOT_1027] INFO  W.FileParserSpout - Measured throughput: 11816 lines/second, 2.49153 MB/s
+00:18:52.475 [SLOT_1027] INFO  W.FileParserSpout - Measured throughput: 10857 lines/second, 2.28814 MB/s
+00:18:52.476 [SLOT_1027] INFO  W.FileParserSpout - Measured throughput: 10437 lines/second, 2.20339 MB/s
+00:18:52.476 [SLOT_1027] INFO  W.FileParserSpout - Measured throughput: 11028 lines/second, 2.32203 MB/s
+00:18:52.476 [SLOT_1027] INFO  W.FileParserSpout - Measured throughput: 11676 lines/second, 2.45763 MB/s
+00:18:55.590 [main] INFO  W.WordCount - Exiting
+00:18:55.591 [main] INFO  W.WordCount - Dumping metrics

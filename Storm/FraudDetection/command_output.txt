@@ -1,0 +1,26 @@
+23:01:02.996 [main] INFO  F.FraudDetection - Executing FraudDetection with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 100
+  * source: 7
+  * predictor: 7
+  * sink: 7
+  * topology: source -> predictor -> sink
+23:01:03.000 [main] INFO  F.FraudDetection - Submitting topology
+23:01:03.751 [main] INFO  F.FraudDetection - Waiting for topology termination...
+23:02:07.600 [Thread-43-spout-executor[22, 22]] INFO  F.FileParserSpout - Killing the topology
+23:02:07.653 [Thread-38-spout-executor[16, 16]] INFO  F.FileParserSpout - Killing the topology
+23:02:07.674 [Thread-52-spout-executor[17, 17]] INFO  F.FileParserSpout - Killing the topology
+23:02:07.697 [Thread-39-spout-executor[18, 18]] INFO  F.FileParserSpout - Killing the topology
+23:02:07.697 [Thread-44-spout-executor[20, 20]] INFO  F.FileParserSpout - Killing the topology
+23:02:07.698 [Thread-50-spout-executor[19, 19]] INFO  F.FileParserSpout - Killing the topology
+23:02:07.710 [Thread-48-spout-executor[21, 21]] INFO  F.FileParserSpout - Killing the topology
+23:02:37.831 [main] INFO  F.FraudDetection - ...Shutting down cluster
+23:02:37.925 [SLOT_1027] INFO  F.FileParserSpout - Measured throughput: 158449 tuples/second
+23:02:37.925 [SLOT_1027] INFO  F.FileParserSpout - Measured throughput: 158573 tuples/second
+23:02:37.926 [SLOT_1027] INFO  F.FileParserSpout - Measured throughput: 159553 tuples/second
+23:02:37.926 [SLOT_1027] INFO  F.FileParserSpout - Measured throughput: 159247 tuples/second
+23:02:37.926 [SLOT_1027] INFO  F.FileParserSpout - Measured throughput: 159235 tuples/second
+23:02:37.926 [SLOT_1027] INFO  F.FileParserSpout - Measured throughput: 159742 tuples/second
+23:02:37.927 [SLOT_1027] INFO  F.FileParserSpout - Measured throughput: 159588 tuples/second
+23:02:41.003 [main] INFO  F.FraudDetection - Exiting
+23:02:41.003 [main] INFO  F.FraudDetection - Dumping metrics

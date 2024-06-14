@@ -1,0 +1,13 @@
+15:57:59.521 [main] INFO  S.SpikeDetection - Executing SpikeDetection with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 100
+  * source: 7
+  * moving-average: 7
+  * spike-detector: 7
+  * sink: 7
+  * topology: source -> moving-average -> spike-detector -> sink
+15:57:59.526 [main] INFO  S.SpikeDetection - Chaining is enabled
+15:57:59.527 [main] INFO  S.SpikeDetection - Submitting topology
+15:59:06.202 [main] INFO  S.SpikeDetection - Exiting
+15:59:06.203 [main] INFO  S.SpikeDetection - Measured throughput: 2527051.0 tuples/second
+15:59:06.203 [main] INFO  S.SpikeDetection - Dumping metrics

@@ -1,0 +1,21 @@
+22:20:52.402 [main] INFO  V.VoipStream - Executing VoipStream (default) with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 100
+  * topology: complex with 15 operators
+22:20:52.435 [main] INFO  V.Topology - NODE: source (2)
+22:20:52.440 [main] INFO  V.Topology - NODE: parser (2)
+22:20:52.450 [main] INFO  V.Topology - NODE: dispatcher (2)
+22:20:52.454 [main] INFO  V.Topology - NODE: ct24 (2)
+22:20:52.457 [main] INFO  V.VoipStream - NODE: global_acd (1)
+22:20:52.459 [main] INFO  V.Topology - NODE: ecr24 (2)
+22:20:52.464 [main] INFO  V.Topology - NODE: acd (2)
+22:20:52.466 [main] INFO  V.Topology - NODE: pre_rcr (2)
+22:20:52.467 [main] INFO  V.Topology - NODE: rcr (2)
+22:20:52.468 [main] INFO  V.Topology - NODE: ecr (2)
+22:20:52.470 [main] INFO  V.Topology - NODE: fofir (2)
+22:20:52.471 [main] INFO  V.Topology - NODE: encr (2)
+22:20:52.473 [main] INFO  V.Topology - NODE: url (2)
+22:20:52.474 [main] INFO  V.Topology - NODE: score (2)
+22:20:52.476 [main] INFO  V.Topology - NODE: sink (2)
+22:20:52.476 [main] INFO  V.Topology - Chaining is enabled
+22:20:52.476 [main] INFO  V.Topology - Submitting topology

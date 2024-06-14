@@ -1,0 +1,22 @@
+23:11:39.683 [main] INFO  S.SpikeDetection - Executing SpikeDetection with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 100
+  * source: 7
+  * moving-average: 7
+  * spike-detector: 7
+  * sink: 7
+  * topology: source -> moving-average -> spike-detector -> sink
+23:11:39.686 [main] INFO  S.SpikeDetection - Submitting topology
+23:11:40.383 [main] INFO  S.SpikeDetection - Waiting for topology termination...
+23:12:44.280 [Thread-59-spout-executor[23, 23]] INFO  S.FileParserSpout - Killing the topology
+23:12:44.349 [Thread-47-spout-executor[26, 26]] INFO  S.FileParserSpout - Killing the topology
+23:13:14.393 [SLOT_1024] INFO  S.FileParserSpout - Measured throughput: 272132 tuples/second
+23:13:14.393 [SLOT_1024] INFO  S.FileParserSpout - Measured throughput: 271362 tuples/second
+23:13:14.394 [SLOT_1024] INFO  S.FileParserSpout - Measured throughput: 266958 tuples/second
+23:13:14.394 [SLOT_1024] INFO  S.FileParserSpout - Measured throughput: 274360 tuples/second
+23:13:14.395 [SLOT_1024] INFO  S.FileParserSpout - Measured throughput: 273824 tuples/second
+23:13:14.395 [SLOT_1024] INFO  S.FileParserSpout - Measured throughput: 268819 tuples/second
+23:13:14.395 [SLOT_1024] INFO  S.FileParserSpout - Measured throughput: 268592 tuples/second
+23:13:14.419 [main] INFO  S.SpikeDetection - ...Shutting down cluster
+23:13:17.484 [main] INFO  S.SpikeDetection - Exiting
+23:13:17.485 [main] INFO  S.SpikeDetection - Dumping metrics

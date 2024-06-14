@@ -1,0 +1,13 @@
+21:36:54.682 [main] INFO  W.WordCount - Executing WordCount with parameters:
+  * rate: full_speed tuples/second
+  * sampling: 100
+  * source: 7
+  * splitter: 7
+  * counter: 7
+  * sink: 7
+  * topology: source -> splitter -> counter -> sink
+21:36:54.685 [main] INFO  W.WordCount - Chaining is enabled
+21:36:54.685 [main] INFO  W.WordCount - Submitting topology
+21:37:56.847 [main] INFO  W.WordCount - Exiting
+21:37:56.849 [main] INFO  W.WordCount - Measured throughput: 197235.0 lines/second, 41.05877429644267 MB/s
+21:37:56.849 [main] INFO  W.WordCount - Dumping metrics

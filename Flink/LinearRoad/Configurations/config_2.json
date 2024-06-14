@@ -1,0 +1,17 @@
+{
+    "run_time": 60,
+    "sampling_rate": 100,
+    "gen_rate": 0,
+    "chaining": true,
+    "aggressive_chaining": false,
+    "dataset": "../../Datasets/LR/linear_road.txt",
+    "source": 2,
+    "dispatcher": 2,
+    "toll_notification_pos": 2,
+    "average_speed": 2,
+    "last_average_speed": 2,
+    "toll_notification_las": 2,
+    "count_vehicles": 2,
+    "toll_notification_cv": 2,
+    "sink": 2
+}
